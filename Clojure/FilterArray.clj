@@ -1,0 +1,1 @@
+(fn [delim lst] (map (fn [x] (if (< x delim) (println x))) lst))
