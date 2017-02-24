@@ -1,8 +1,5 @@
 (use '[clojure.string :only (split triml)])
 
-(defn factorial [n]
-    )
-
 (let [n_t (read-line) n (Integer/parseInt n_t) ]
   (loop [a0 n]
     (when (> a0 0)
